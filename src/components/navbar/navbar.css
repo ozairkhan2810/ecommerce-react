@@ -1,0 +1,48 @@
+header {
+  position: sticky;
+  z-index: 100;
+}
+
+nav.navbar {
+  background: #0079ba;
+  width: 100%;
+}
+
+.header-menu .material-icons {
+  color: white;
+  margin-left: 1rem;
+}
+
+.header-logo {
+  object-fit: contain;
+  width: 6.25rem;
+  margin: 0 2rem;
+}
+
+.input-container {
+  display: flex;
+  flex: 1;
+  margin-right: 20px;
+}
+
+input.input-search {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-login-link {
+  margin-right: 1.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.header-wishlist-link {
+  margin-right: 2rem;
+}
