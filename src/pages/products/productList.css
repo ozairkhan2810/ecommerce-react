@@ -16,3 +16,13 @@
   border: 2px solid var(--red);
   border-radius: 4px;
 }
+
+.product-page {
+  background: #f1f3f6;
+  margin-top: 6rem;
+}
+
+.main-heading {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
