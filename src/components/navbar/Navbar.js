@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 import "./navbar.css";
 import SearchBar from "./SearchBar";
-import logo from "../../assets/crickit-logo.png";
 
 const Navbar = () => {
   return (
@@ -13,13 +12,15 @@ const Navbar = () => {
           <span class="material-icons"> menu </span>
         </div>
         <Link to="/">
-          <img className="header-logo" src={logo} alt="crickit-logo" />
+          <img
+            className="header-logo"
+            src="./assets/crickit-logo.png"
+            alt="crickit-logo"
+          />
         </Link>
         <SearchBar />
         <Link to="/login" className="header-link">
-          <div className="header-login-link">
-            Login
-          </div>
+          <div className="header-login-link">Login</div>
         </Link>
         <Link to="/wishlist" className="header-link">
           <div className="header-wishlist-link rel">

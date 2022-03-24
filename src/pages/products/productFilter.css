@@ -1,0 +1,23 @@
+.aside-filter {
+  background: var(--white);
+  height: 100%;
+  width: 20%;
+}
+
+.aside-filter div > h4 {
+  margin-bottom: 1rem;
+}
+
+.side-heading ul li {
+  padding-bottom: 8px;
+}
+
+.side-heading > h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.slider-value {
+  margin-bottom: 8px;
+}

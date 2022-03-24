@@ -11,7 +11,7 @@ const Categories = () => {
             key={category._id}
             class="category-list flex flex-column gap-1 justify-center align-center bg-white box-shadow"
           >
-            {/* <img class="img-category" src={category.categoryImg} alt={category.categoryName} /> */}
+            <img class="img-category" src={category.categoryImg} alt={category.categoryName} />
             <span class="bold-500">{category.categoryName}</span>
           </div>
         ))}
