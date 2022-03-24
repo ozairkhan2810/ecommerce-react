@@ -1,0 +1,18 @@
+.img-container > img {
+  width: 100%;
+  height: 12rem;
+  object-fit: contain;
+}
+
+.img-container {
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.rating-simple {
+  width: fit-content;
+  padding-inline: 4px;
+  border: 2px solid var(--red);
+  border-radius: 4px;
+}
