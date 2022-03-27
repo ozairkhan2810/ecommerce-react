@@ -46,3 +46,13 @@ input.input-search {
 .header-wishlist-link {
   margin-right: 2rem;
 }
+
+.product-link {
+  color: white;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+}
+
+.product-link:hover {
+  color: var(--red);
+}
