@@ -9,7 +9,7 @@ const Navbar = () => {
     <header>
       <nav className="navbar flex align-center p-1">
         <div className="header-menu">
-          <span class="material-icons"> menu </span>
+          <span className="material-icons"> menu </span>
         </div>
         <Link to="/">
           <img
