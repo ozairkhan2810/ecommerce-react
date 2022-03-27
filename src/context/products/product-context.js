@@ -18,7 +18,7 @@ const ProductProvider = ({ children }) => {
       .filter((item) =>
         state.categories.length === 0
           ? item
-          : state["categories"].includes(item.categoryName)
+          : state.categories.includes(item.categoryName)
       )
       .filter((item) =>
         state.ratings > 0 ? item.rating >= state.ratings : item
