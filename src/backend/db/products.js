@@ -9,7 +9,7 @@ export const products = [
   {
     _id: uuid(),
     productName: "CRICKET NON TOXIC 2 PIECE LEATHER BALL",
-    price: "5000",
+    price: "1000",
     productImg: "./assets/products/ball1.webp",
     rating: 1,
     categoryName: "ball",
@@ -17,7 +17,7 @@ export const products = [
   {
     _id: uuid(),
     productName: "CRICKET NON TOXIC 4 PIECE LEATHER BALL",
-    price: "3000",
+    price: "2000",
     productImg: "./assets/products/ball2.webp",
     rating: 2,
     categoryName: "ball",
@@ -25,7 +25,7 @@ export const products = [
   {
     _id: uuid(),
     productName: "TB MEDIUM CRICKET BALL PINK",
-    price: "1000",
+    price: "3000",
     productImg: "./assets/products/ball3.webp",
     rating: 3,
     categoryName: "ball",
@@ -33,7 +33,7 @@ export const products = [
   {
     _id: uuid(),
     productName: "KIDS KASHMIR WILLOW CRICKET BAT",
-    price: "5000",
+    price: "4000",
     productImg: "./assets/products/bat1.webp",
     rating: 4,
     categoryName: "bat",
@@ -41,7 +41,7 @@ export const products = [
   {
     _id: uuid(),
     productName: "ENGLISH WILLOW CRICKET BAT",
-    price: "3000",
+    price: "5000",
     productImg: "./assets/products/bat2.webp",
     rating: 5,
     categoryName: "bat",
@@ -49,7 +49,7 @@ export const products = [
   {
     _id: uuid(),
     productName: "KIDS ENGLISH WILLOW CRICKET BAT",
-    price: "1000",
+    price: "5000",
     productImg: "./assets/products/bat3.webp",
     rating: 5,
     categoryName: "bat",
@@ -57,7 +57,7 @@ export const products = [
   {
     _id: uuid(),
     productName: "RCB JERSEY",
-    price: "5000",
+    price: "4000",
     productImg: "./assets/products/rcbj.jpg",
     rating: 4,
     categoryName: "jersey",
@@ -73,7 +73,7 @@ export const products = [
   {
     _id: uuid(),
     productName: "SRH JERSEY",
-    price: "1000",
+    price: "2000",
     productImg: "./assets/products/srhj.jpg",
     rating: 2,
     categoryName: "jersey",
@@ -81,7 +81,7 @@ export const products = [
   {
     _id: uuid(),
     productName: "RCB CAP",
-    price: "5000",
+    price: "1000",
     productImg: "./assets/products/rcbc.jpg",
     rating: 1,
     categoryName: "cap",
@@ -89,7 +89,7 @@ export const products = [
   {
     _id: uuid(),
     productName: "CSK CAP",
-    price: "3000",
+    price: "1000",
     productImg: "./assets/products/cskc.jpg",
     rating: 1,
     categoryName: "cap",
@@ -97,7 +97,7 @@ export const products = [
   {
     _id: uuid(),
     productName: "SRH CAP",
-    price: "1000",
+    price: "2000",
     productImg: "./assets/products/srhc.jpg",
     rating: 1,
     categoryName: "cap",
@@ -105,7 +105,7 @@ export const products = [
   {
     _id: uuid(),
     productName: "RCB HELMET",
-    price: "5000",
+    price: "3000",
     productImg: "./assets/products/rcbh.jpg",
     rating: 2,
     categoryName: "helmet",
@@ -113,7 +113,7 @@ export const products = [
   {
     _id: uuid(),
     productName: "CSK HELMET",
-    price: "3000",
+    price: "4000",
     productImg: "./assets/products/cskh.jpg",
     rating: 3,
     categoryName: "helmet",
@@ -121,7 +121,7 @@ export const products = [
   {
     _id: uuid(),
     productName: "SRH HELMET",
-    price: "1000",
+    price: "5000",
     productImg: "./assets/products/srhh.jpg",
     rating: 4,
     categoryName: "helmet",

@@ -1,17 +1,16 @@
 import React from "react";
 import ProductFilter from "./ProductFilter";
-import { products } from "../../backend/db/products";
 import "./productList.css";
 
-const ProductList = () => {
+const ProductList = ({ products }) => {
   return (
     <div className="product-page flex gap-1">
       <ProductFilter />
-      <main className="main-container p-1">
-        <h2 className="main-heading">Showing All Products (8)</h2>
+      <main className="main-container pl-1">
+        <h2 className="main-heading">Showing Products ({products.length})</h2>
         <div className="products flex">
           {products.map((product) => (
-            <div className="card-badge product rel bg-white">
+            <div key={product._id} className="card-badge product rel bg-white">
               <div className="flex img-container">
                 <img src={product.productImg} alt={product.categoryName} />
                 <span className="material-icons wishlist">favorite_border</span>
