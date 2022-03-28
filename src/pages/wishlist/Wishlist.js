@@ -9,7 +9,7 @@ const Wishlist = () => {
 
   useEffect(() => {
     document.title = "My Wishlist | CricKit";
-  });
+  }, []);
 
   return (
     <section>
