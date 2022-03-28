@@ -15,9 +15,7 @@ const Product = () => {
 
   return (
     <>
-      <Navbar />
       <ProductList products={filteredProducts} />
-      <Footer />
     </>
   );
 };
