@@ -8,51 +8,57 @@ import { v4 as uuid } from "uuid";
 export const products = [
   {
     _id: uuid(),
-    productName: "CRICKET NON TOXIC 2 PIECE LEATHER BALL",
+    productName: "2 PIECE LEATHER BALL",
     price: "1000",
     productImg: "./assets/products/ball1.webp",
     rating: 1,
     categoryName: "ball",
+    quantity: 1,
   },
   {
     _id: uuid(),
-    productName: "CRICKET NON TOXIC 4 PIECE LEATHER BALL",
+    productName: "4 PIECE LEATHER BALL",
     price: "2000",
     productImg: "./assets/products/ball2.webp",
     rating: 2,
     categoryName: "ball",
+    quantity: 1,
   },
   {
     _id: uuid(),
-    productName: "TB MEDIUM CRICKET BALL PINK",
+    productName: "CRICKET BALL PINK",
     price: "3000",
     productImg: "./assets/products/ball3.webp",
     rating: 3,
     categoryName: "ball",
+    quantity: 1,
   },
   {
     _id: uuid(),
-    productName: "KIDS KASHMIR WILLOW CRICKET BAT",
+    productName: "KIDS KASHMIR WILLOW",
     price: "4000",
     productImg: "./assets/products/bat1.webp",
     rating: 4,
     categoryName: "bat",
+    quantity: 1,
   },
   {
     _id: uuid(),
-    productName: "ENGLISH WILLOW CRICKET BAT",
+    productName: "ENGLISH WILLOW",
     price: "5000",
     productImg: "./assets/products/bat2.webp",
     rating: 5,
     categoryName: "bat",
+    quantity: 1,
   },
   {
     _id: uuid(),
-    productName: "KIDS ENGLISH WILLOW CRICKET BAT",
+    productName: "KIDS ENGLISH WILLOW",
     price: "5000",
     productImg: "./assets/products/bat3.webp",
     rating: 5,
     categoryName: "bat",
+    quantity: 1,
   },
   {
     _id: uuid(),
@@ -61,6 +67,7 @@ export const products = [
     productImg: "./assets/products/rcbj.jpg",
     rating: 4,
     categoryName: "jersey",
+    quantity: 1,
   },
   {
     _id: uuid(),
@@ -69,6 +76,7 @@ export const products = [
     productImg: "./assets/products/cskj.jpg",
     rating: 3,
     categoryName: "jersey",
+    quantity: 1,
   },
   {
     _id: uuid(),
@@ -77,6 +85,7 @@ export const products = [
     productImg: "./assets/products/srhj.jpg",
     rating: 2,
     categoryName: "jersey",
+    quantity: 1,
   },
   {
     _id: uuid(),
@@ -85,6 +94,7 @@ export const products = [
     productImg: "./assets/products/rcbc.jpg",
     rating: 1,
     categoryName: "cap",
+    quantity: 1,
   },
   {
     _id: uuid(),
@@ -93,6 +103,7 @@ export const products = [
     productImg: "./assets/products/cskc.jpg",
     rating: 1,
     categoryName: "cap",
+    quantity: 1,
   },
   {
     _id: uuid(),
@@ -101,6 +112,7 @@ export const products = [
     productImg: "./assets/products/srhc.jpg",
     rating: 1,
     categoryName: "cap",
+    quantity: 1,
   },
   {
     _id: uuid(),
@@ -109,6 +121,7 @@ export const products = [
     productImg: "./assets/products/rcbh.jpg",
     rating: 2,
     categoryName: "helmet",
+    quantity: 1,
   },
   {
     _id: uuid(),
@@ -117,6 +130,7 @@ export const products = [
     productImg: "./assets/products/cskh.jpg",
     rating: 3,
     categoryName: "helmet",
+    quantity: 1,
   },
   {
     _id: uuid(),
@@ -125,5 +139,6 @@ export const products = [
     productImg: "./assets/products/srhh.jpg",
     rating: 4,
     categoryName: "helmet",
+    quantity: 1,
   },
 ];
