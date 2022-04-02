@@ -4,10 +4,14 @@ import { Link } from "react-router-dom";
 import "./navbar.css";
 import SearchBar from "./SearchBar";
 import { useWishlist } from "../../context/wishlist/wishlist-context";
+import { useCart } from "../../context/cart/cart-context";
 
 const Navbar = () => {
   const { wishlistState } = useWishlist();
   const { wishlist } = wishlistState;
+  const {
+    cartState: { cart },
+  } = useCart();
   const wishlistIcon = {
     position: "absolute",
     top: "-6px",
@@ -53,7 +57,7 @@ const Navbar = () => {
         <Link to="/cart" className="header-link">
           <div className="header-cart-link rel mr-1">
             <span className="material-icons"> shopping_cart </span>
-            <span style={cartIcon}>5</span>
+            <span style={cartIcon}>{cart?.length > 0 && cart.length}</span>
           </div>
         </Link>
       </nav>
