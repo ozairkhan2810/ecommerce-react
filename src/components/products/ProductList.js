@@ -14,7 +14,6 @@ const ProductList = ({ products }) => {
     cartState: { cart },
     cartDispatch,
   } = useCart();
-  console.log(cart);
   return (
     <div className="product-page flex gap-1">
       <ProductFilter />

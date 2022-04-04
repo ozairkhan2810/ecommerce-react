@@ -24,8 +24,6 @@ const Cart = () => {
     mrp: 0,
   });
 
-  console.log(totalPriceDetails);
-
   useEffect(() => {
     document.title = "My Cart | CricKit";
   }, []);

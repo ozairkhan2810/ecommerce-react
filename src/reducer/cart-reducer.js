@@ -6,7 +6,7 @@ export const cartReducer = (state, action) => {
       if (cart.some(({ product }) => product._id === payload._id))
         return {
           ...state,
-          cart: [...cart.filter(({ product }) => product._id !== payload._id)],
+          cart: cart.filter(({ product }) => product._id !== payload._id),
         };
 
       return {
@@ -17,7 +17,7 @@ export const cartReducer = (state, action) => {
     case "REMOVE_FROM_CART":
       return {
         ...state,
-        cart: [...cart.filter(({ product }) => product._id !== payload._id)],
+        cart: cart.filter(({ product }) => product._id !== payload._id),
       };
 
     case "INCREMENT_CART_ITEM":
