@@ -2,10 +2,12 @@ import React, { useEffect } from "react";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { useWishlist } from "../../context/wishlist/wishlist-context";
 import "../../components/products/productList.css";
+import { useCart } from "../../context/cart/cart-context";
 
 const Wishlist = () => {
   const { wishlistState, wishlistDispatch } = useWishlist();
   const { wishlist } = wishlistState;
+  const { cartDispatch } = useCart();
 
   useEffect(() => {
     document.title = "My Wishlist | CricKit";
