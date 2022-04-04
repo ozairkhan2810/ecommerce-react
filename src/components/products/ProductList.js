@@ -3,12 +3,17 @@ import ProductFilter from "./ProductFilter";
 import "./productList.css";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { useWishlist } from "../../context/wishlist/wishlist-context";
+import { useCart } from "../../context/cart/cart-context";
 
 const ProductList = ({ products }) => {
   const {
     wishlistState: { wishlist },
     wishlistDispatch,
   } = useWishlist();
+  const {
+    cartState: { cart },
+    cartDispatch,
+  } = useCart();
   return (
     <div className="product-page flex gap-1">
       <ProductFilter />
